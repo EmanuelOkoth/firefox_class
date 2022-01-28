@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+  <style>
+    body{
+      background: #fff;
+    }
+    h2{
+      text-align: center;
+    }
+    form{
+      background: #fff;
+      width: 500px;
+      margin: 0 auto;
+      border-radius: 25px;
+      padding: 20px;
+      box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+
+    form > div{
+      display: grid;
+      width: 400px;
+      margin-bottom: 15px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+    form > div > input, #courses {
+      padding: 5px;
+    }
+    #submit{
+      padding: 8px;
+      text-transform: uppercase;
+      font-size: 15px;
+      font-weight: 590;
+      line-height: 1.5;
+      letter-spacing: 1px;
+      color: white;
+      background: blue;
+      border: none;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Get In Touch</h2>
+  <form action="">
+
+    <div class="input">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name">
+    </div>
+
+    <div>
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email">
+    </div>
+
+    <div>
+      <label for="phone">Mobile Number</label>
+      <input type="text" id="phone" name="phone">
+    </div>
+
+    <div>
+      <label for="courses">Courses</label>
+      <select name="courses" id="courses">
+        <option value="Python">Python</option>
+        <option value="JavaScript">JavaScript</option>
+        <option value="fullStack development">FullStack Development</option>
+        <option value="Web development">Web Development</option>
+      </select>
+    </div>
+
+    <div>
+      <label for="date">Date of birth</label>
+      <input type="date" id="date" name="date_of_birth">
+    </div>
+
+    <div>
+      <label for="password">Password</label>
+      <input type="text" id="password" name="password">
+    </div>
+
+    <div class="submit">
+      <input type="submit" id="submit" value="Send Message">
+     </div>
+
+  </form>
+</body>
+</html>
